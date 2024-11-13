@@ -1,83 +1,111 @@
-/* Основные стили для страницы "О нас" */
 .about {
-    font-family: Arial, sans-serif;
+    font-family: Raleway, sans-serif;
     color: #333;
-    padding: 20px;
-  }
-  
-  .header {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 0;
-    border-bottom: 1px solid #e0e0e0;
-  }
+    flex-direction: column;
+    margin-top: 84px;
+
+}
   
-  .logo {
-    height: 40px;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-links li {
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  .intro {
-    margin-top: 20px;
-  }
-  
-  .intro h1 {
-    font-size: 24px;
-    color: #4a4a4a;
-  }
-  
-  .intro p {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  
-  .features {
-    margin-top: 40px;
-    text-align: center;
-  }
-  
-  .features h2 {
-    font-size: 20px;
-    color: #333;
-  }
-  
-  .feature-cards {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 20px;
-  }
-  
-  .card {
-    text-align: center;
-    max-width: 120px;
-  }
-  
-  .card img {
-    width: 60px;
-    height: 60px;
-  }
-  
-  .card p {
-    font-size: 14px;
-    margin-top: 10px;
-  }
-  
-  .join {
-    margin-top: 50px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 18px;
-  }
-  
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 100px 0px 100px;
+  height: 900px;
+}
+.intro-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 971px;
+  max-hight: 632px;
+}
+
+.intro h1 {
+  font-size: 64px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.intro-p {
+  margin-top: 35px;
+  max-width: 805px;
+  font-size: 28px;
+  font-weight: 400;
+  color: black;
+}
+
+.intro-p-strong {
+  margin-top: 50px;
+  max-width: 800px;
+
+}
+
+.intro strong {
+  font-weight: bold;
+  color: black;
+
+  font-size: 40px;
+
+}
+.features {
+  margin-top: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 64px;
+  color: black;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.card {
+  text-align: center;
+  max-width: 120px;
+}
+.card p {
+  font-size: 28px;
+}
+
+.card img {
+  width: 60px;
+  height: 60px;
+}
+
+
+.join {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
