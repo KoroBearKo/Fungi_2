@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import SwiperCard from "../../components/SwiperCard/ScrollCards.tsx";
 
 const AboutUs: React.FC = () => {
   return (
@@ -17,25 +18,16 @@ const AboutUs: React.FC = () => {
           </p>
           <p className="intro-p-strong"><strong>Цель проекта - облегчить жизнь любителям грибов</strong></p>
         </div>
+        <img src="./public/images/svg/mushroom.svg" alt="mushroom" className="intro-image" />
 
       </section>
 
       <section className="features">
         <h2>Всё о грибах в одном месте!</h2>
         <div className="feature-cards">
-          <div className="card">
-            <img src="/icon1.png" alt="icon1"/>
-            <p>Офлайн доступ к 100 видам грибов в твоём телефоне.</p>
-          </div>
-          <div className="card">
-            <img src="/icon2.png" alt="icon2"/>
-            <p>С полезной информацией, чтобы точно отличить мухомор от съедобного гриба.</p>
-          </div>
-          <div className="card">
-            <img src="/icon3.png" alt="icon3" />
-            <p><strong>30+</strong> статей</p>
-          </div>
+            <SwiperCard/>
         </div>
+
       </section>
       
       <section className="join">
