@@ -8,13 +8,17 @@
     margin-bottom: 15px;
     cursor: pointer;
     overflow: hidden;
+    border-radius: 20px;
+    background-color: #ffe8c5;
+    max-width: 800px;
+    width: 100%;
 }
 
 .publication-card img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .publication-info {
@@ -24,9 +28,11 @@
 
 .publication-info h3 {
     margin: 0;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    font-weight: bold;
 }
 
 .publication-info p {
     margin: 5px 0 0;
+    font-size: 0.9em;
 }
