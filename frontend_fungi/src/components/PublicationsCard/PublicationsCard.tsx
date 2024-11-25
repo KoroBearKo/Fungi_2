@@ -3,6 +3,7 @@ import "./index.css";
 
 const Publications: React.FC = () => {
     return (
+      
             <div className="publication-card">
                 <img src="/image1.jpg" alt="image1" />
                 <div className="publication-info">
