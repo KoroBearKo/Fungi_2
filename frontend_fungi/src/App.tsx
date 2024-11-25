@@ -1,11 +1,10 @@
-import React, {Component} from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import "./index.css";
 import {MainPage} from "./pages/MainPage.tsx";
 import "./components/Header/header.tsx";
 import {Header} from "./components/Header/header.tsx";
 import { Footer } from "./components/Footer/footer.tsx";
-import Publications from "./Publications/Publications.tsx";
+import Publications from "./pages/Publications/Publications.tsx";
 //import {Footer} from "./components/Footer/footer.tsx";
 
 export function App() {
