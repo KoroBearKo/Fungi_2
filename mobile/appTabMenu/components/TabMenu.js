@@ -22,9 +22,9 @@ export default function TabMenu() {
             if(route.name==='Encyclopedia'){
               return <Image source={NewsIcon} style={{ width: '80%', height: '80%', resizeMode: 'contain', tintColor: color }} />;
             } else if (route.name==='Publications') {
-              return <Image source={UserIcon} style={{ width: '80%', height: '80%', resizeMode: 'contain', tintColor: color }} />;
-            }else if (route.name==='Profile') {
               return <Image source={BookIcon} style={{ width: '80%', height: '80%', resizeMode: 'contain', tintColor: color }} />;
+            }else if (route.name==='Profile') {
+              return <Image source={UserIcon} style={{ width: '80%', height: '80%', resizeMode: 'contain', tintColor: color }} />;
             }
           },
           tabBarShowLabel:false,
